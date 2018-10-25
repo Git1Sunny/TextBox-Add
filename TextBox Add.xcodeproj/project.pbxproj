@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70389102181740000FEEDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F703890F2181740000FEEDF1 /* AppDelegate.swift */; };
+		F70389122181740000FEEDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70389112181740000FEEDF1 /* ViewController.swift */; };
+		F70389152181740000FEEDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70389132181740000FEEDF1 /* Main.storyboard */; };
+		F70389182181740000FEEDF1 /* TextBox_Add.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F70389162181740000FEEDF1 /* TextBox_Add.xcdatamodeld */; };
+		F703891A2181740A00FEEDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70389192181740A00FEEDF1 /* Assets.xcassets */; };
+		F703891D2181740A00FEEDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F703891B2181740A00FEEDF1 /* LaunchScreen.storyboard */; };
+		F70389282181740A00FEEDF1 /* TextBox_AddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70389272181740A00FEEDF1 /* TextBox_AddTests.swift */; };
+		F70389332181740A00FEEDF1 /* TextBox_AddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70389322181740A00FEEDF1 /* TextBox_AddUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70389242181740A00FEEDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70389042181740000FEEDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F703890B2181740000FEEDF1;
+			remoteInfo = "TextBox Add";
+		};
+		F703892F2181740A00FEEDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70389042181740000FEEDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F703890B2181740000FEEDF1;
+			remoteInfo = "TextBox Add";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F703890C2181740000FEEDF1 /* TextBox Add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextBox Add.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F703890F2181740000FEEDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70389112181740000FEEDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70389142181740000FEEDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70389172181740000FEEDF1 /* TextBox_Add.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextBox_Add.xcdatamodel; sourceTree = "<group>"; };
+		F70389192181740A00FEEDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F703891C2181740A00FEEDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F703891E2181740A00FEEDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70389232181740A00FEEDF1 /* TextBox AddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextBox AddTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70389272181740A00FEEDF1 /* TextBox_AddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox_AddTests.swift; sourceTree = "<group>"; };
+		F70389292181740A00FEEDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F703892E2181740A00FEEDF1 /* TextBox AddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextBox AddUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70389322181740A00FEEDF1 /* TextBox_AddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox_AddUITests.swift; sourceTree = "<group>"; };
+		F70389342181740A00FEEDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70389092181740000FEEDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70389202181740A00FEEDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F703892B2181740A00FEEDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70389032181740000FEEDF1 = {
+			isa = PBXGroup;
+			children = (
+				F703890E2181740000FEEDF1 /* TextBox Add */,
+				F70389262181740A00FEEDF1 /* TextBox AddTests */,
+				F70389312181740A00FEEDF1 /* TextBox AddUITests */,
+				F703890D2181740000FEEDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F703890D2181740000FEEDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F703890C2181740000FEEDF1 /* TextBox Add.app */,
+				F70389232181740A00FEEDF1 /* TextBox AddTests.xctest */,
+				F703892E2181740A00FEEDF1 /* TextBox AddUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F703890E2181740000FEEDF1 /* TextBox Add */ = {
+			isa = PBXGroup;
+			children = (
+				F703890F2181740000FEEDF1 /* AppDelegate.swift */,
+				F70389112181740000FEEDF1 /* ViewController.swift */,
+				F70389132181740000FEEDF1 /* Main.storyboard */,
+				F70389192181740A00FEEDF1 /* Assets.xcassets */,
+				F703891B2181740A00FEEDF1 /* LaunchScreen.storyboard */,
+				F703891E2181740A00FEEDF1 /* Info.plist */,
+				F70389162181740000FEEDF1 /* TextBox_Add.xcdatamodeld */,
+			);
+			path = "TextBox Add";
+			sourceTree = "<group>";
+		};
+		F70389262181740A00FEEDF1 /* TextBox AddTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70389272181740A00FEEDF1 /* TextBox_AddTests.swift */,
+				F70389292181740A00FEEDF1 /* Info.plist */,
+			);
+			path = "TextBox AddTests";
+			sourceTree = "<group>";
+		};
+		F70389312181740A00FEEDF1 /* TextBox AddUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70389322181740A00FEEDF1 /* TextBox_AddUITests.swift */,
+				F70389342181740A00FEEDF1 /* Info.plist */,
+			);
+			path = "TextBox AddUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F703890B2181740000FEEDF1 /* TextBox Add */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70389372181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox Add" */;
+			buildPhases = (
+				F70389082181740000FEEDF1 /* Sources */,
+				F70389092181740000FEEDF1 /* Frameworks */,
+				F703890A2181740000FEEDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextBox Add";
+			productName = "TextBox Add";
+			productReference = F703890C2181740000FEEDF1 /* TextBox Add.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70389222181740A00FEEDF1 /* TextBox AddTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F703893A2181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox AddTests" */;
+			buildPhases = (
+				F703891F2181740A00FEEDF1 /* Sources */,
+				F70389202181740A00FEEDF1 /* Frameworks */,
+				F70389212181740A00FEEDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70389252181740A00FEEDF1 /* PBXTargetDependency */,
+			);
+			name = "TextBox AddTests";
+			productName = "TextBox AddTests";
+			productReference = F70389232181740A00FEEDF1 /* TextBox AddTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F703892D2181740A00FEEDF1 /* TextBox AddUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F703893D2181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox AddUITests" */;
+			buildPhases = (
+				F703892A2181740A00FEEDF1 /* Sources */,
+				F703892B2181740A00FEEDF1 /* Frameworks */,
+				F703892C2181740A00FEEDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70389302181740A00FEEDF1 /* PBXTargetDependency */,
+			);
+			name = "TextBox AddUITests";
+			productName = "TextBox AddUITests";
+			productReference = F703892E2181740A00FEEDF1 /* TextBox AddUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70389042181740000FEEDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "武英琦";
+				TargetAttributes = {
+					F703890B2181740000FEEDF1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F70389222181740A00FEEDF1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F703890B2181740000FEEDF1;
+					};
+					F703892D2181740A00FEEDF1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F703890B2181740000FEEDF1;
+					};
+				};
+			};
+			buildConfigurationList = F70389072181740000FEEDF1 /* Build configuration list for PBXProject "TextBox Add" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70389032181740000FEEDF1;
+			productRefGroup = F703890D2181740000FEEDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F703890B2181740000FEEDF1 /* TextBox Add */,
+				F70389222181740A00FEEDF1 /* TextBox AddTests */,
+				F703892D2181740A00FEEDF1 /* TextBox AddUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F703890A2181740000FEEDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F703891D2181740A00FEEDF1 /* LaunchScreen.storyboard in Resources */,
+				F703891A2181740A00FEEDF1 /* Assets.xcassets in Resources */,
+				F70389152181740000FEEDF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70389212181740A00FEEDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F703892C2181740A00FEEDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70389082181740000FEEDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70389122181740000FEEDF1 /* ViewController.swift in Sources */,
+				F70389102181740000FEEDF1 /* AppDelegate.swift in Sources */,
+				F70389182181740000FEEDF1 /* TextBox_Add.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F703891F2181740A00FEEDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70389282181740A00FEEDF1 /* TextBox_AddTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F703892A2181740A00FEEDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70389332181740A00FEEDF1 /* TextBox_AddUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70389252181740A00FEEDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F703890B2181740000FEEDF1 /* TextBox Add */;
+			targetProxy = F70389242181740A00FEEDF1 /* PBXContainerItemProxy */;
+		};
+		F70389302181740A00FEEDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F703890B2181740000FEEDF1 /* TextBox Add */;
+			targetProxy = F703892F2181740A00FEEDF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70389132181740000FEEDF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70389142181740000FEEDF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F703891B2181740A00FEEDF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F703891C2181740A00FEEDF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70389352181740A00FEEDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70389362181740A00FEEDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70389382181740A00FEEDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox Add/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-Add";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70389392181740A00FEEDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox Add/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-Add";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F703893B2181740A00FEEDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox AddTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-AddTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextBox Add.app/TextBox Add";
+			};
+			name = Debug;
+		};
+		F703893C2181740A00FEEDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox AddTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-AddTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextBox Add.app/TextBox Add";
+			};
+			name = Release;
+		};
+		F703893E2181740A00FEEDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox AddUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-AddUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TextBox Add";
+			};
+			name = Debug;
+		};
+		F703893F2181740A00FEEDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TextBox AddUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sunny.TextBox-AddUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TextBox Add";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70389072181740000FEEDF1 /* Build configuration list for PBXProject "TextBox Add" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70389352181740A00FEEDF1 /* Debug */,
+				F70389362181740A00FEEDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70389372181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox Add" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70389382181740A00FEEDF1 /* Debug */,
+				F70389392181740A00FEEDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F703893A2181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox AddTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F703893B2181740A00FEEDF1 /* Debug */,
+				F703893C2181740A00FEEDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F703893D2181740A00FEEDF1 /* Build configuration list for PBXNativeTarget "TextBox AddUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F703893E2181740A00FEEDF1 /* Debug */,
+				F703893F2181740A00FEEDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F70389162181740000FEEDF1 /* TextBox_Add.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F70389172181740000FEEDF1 /* TextBox_Add.xcdatamodel */,
+			);
+			currentVersion = F70389172181740000FEEDF1 /* TextBox_Add.xcdatamodel */;
+			path = TextBox_Add.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F70389042181740000FEEDF1 /* Project object */;
+}
